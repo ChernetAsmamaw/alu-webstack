@@ -1,5 +1,5 @@
 frontend www-http
-    bind *:80
+    bind *:443
     mode http
     default_backend web-backend
 frontend www-https
